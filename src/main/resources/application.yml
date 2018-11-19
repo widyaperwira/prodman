@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: prodman
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ism_erp?createDatabaseIfNotExist=true&autoReconnect=true
+    username: root
+    password: root
+  jpa:
+    database: MYSQL
+    hibernate:
+      ddl-auto: update
